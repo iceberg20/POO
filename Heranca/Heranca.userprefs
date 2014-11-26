@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Heranca/ContaComum.cs">
+    <Files>
+      <File FileName="Heranca/Program.cs" Line="23" Column="23" />
+      <File FileName="Heranca/ContaComum.cs" Line="4" Column="4" />
+      <File FileName="Heranca/ContaEspecial.cs" Line="10" Column="10" />
+      <File FileName="Heranca/ContaPoupanca.cs" Line="18" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

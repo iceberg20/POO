@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lista3/LojaDeVeiculos.cs">
+    <Files>
+      <File FileName="Lista3/Program.cs" Line="4" Column="4" />
+      <File FileName="Lista3/Veiculo.cs" Line="2" Column="2" />
+      <File FileName="Lista3/LojaDeVeiculos.cs" Line="58" Column="58" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

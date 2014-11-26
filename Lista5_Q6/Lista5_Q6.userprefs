@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../Dropbox/Segundo Semestre/POO/Xamarim Studio/Program.cs">
+    <Files>
+      <File FileName="../../Dropbox/Segundo Semestre/POO/Xamarim Studio/Program.cs" Line="1" Column="1" />
+      <File FileName="Lista5_Q6/Figura3D.cs" Line="13" Column="13" />
+      <File FileName="Lista5_Q6/Esfera.cs" Line="14" Column="14" />
+      <File FileName="Lista5_Q6/Cubo.cs" Line="4" Column="4" />
+      <File FileName="Lista5_Q6/Cone.cs" Line="25" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

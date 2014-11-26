@@ -1,0 +1,5 @@
+/Users/Italo/Projects/Lista5/Lista5/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Italo/Projects/Lista5/Lista5/bin/Debug/Lista5.exe.mdb
+/Users/Italo/Projects/Lista5/Lista5/bin/Debug/Lista5.exe
+/Users/Italo/Projects/Lista5/Lista5/obj/x86/Debug/Lista5.exe
+/Users/Italo/Projects/Lista5/Lista5/obj/x86/Debug/Lista5.exe.mdb

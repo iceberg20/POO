@@ -1,0 +1,5 @@
+/Users/Italo/Projects/MaiorMenor5/MaiorMenor5/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Italo/Projects/MaiorMenor5/MaiorMenor5/bin/Debug/MaiorMenor5.exe.mdb
+/Users/Italo/Projects/MaiorMenor5/MaiorMenor5/bin/Debug/MaiorMenor5.exe
+/Users/Italo/Projects/MaiorMenor5/MaiorMenor5/obj/x86/Debug/MaiorMenor5.exe
+/Users/Italo/Projects/MaiorMenor5/MaiorMenor5/obj/x86/Debug/MaiorMenor5.exe.mdb

@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AulaClasse/Program.cs">
+    <Files>
+      <File FileName="AulaClasse/Program.cs" Line="4" Column="4" />
+      <File FileName="AulaClasse/Retangulo2.cs" Line="1" Column="1" />
+      <File FileName="AulaClasse/Conta.cs" Line="16" Column="16" />
+      <File FileName="AulaClasse/MaiorMenor.cs" Line="1" Column="1" />
+      <File FileName="AulaClasse/Contato.cs" Line="1" Column="1" />
+      <File FileName="AulaClasse/Agenda.cs" Line="1" Column="1" />
+      <File FileName="AulaClasse/Pessoa.cs" Line="22" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

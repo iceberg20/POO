@@ -1,0 +1,5 @@
+/Users/Italo/Projects/Lista3/Lista3/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/Italo/Projects/Lista3/Lista3/bin/Debug/Lista3.exe.mdb
+/Users/Italo/Projects/Lista3/Lista3/bin/Debug/Lista3.exe
+/Users/Italo/Projects/Lista3/Lista3/obj/x86/Debug/Lista3.exe
+/Users/Italo/Projects/Lista3/Lista3/obj/x86/Debug/Lista3.exe.mdb
