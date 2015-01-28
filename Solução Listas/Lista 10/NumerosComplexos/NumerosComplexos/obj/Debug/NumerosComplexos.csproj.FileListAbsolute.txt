@@ -1,0 +1,13 @@
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\bin\Debug\NumerosComplexos.exe.config
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\bin\Debug\NumerosComplexos.exe
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\bin\Debug\NumerosComplexos.pdb
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\NumerosComplexos.csprojResolveAssemblyReference.cache
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\MainWindow.baml
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\MainWindow.g.cs
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\App.g.cs
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\NumerosComplexos_MarkupCompile.cache
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\NumerosComplexos.g.resources
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\NumerosComplexos.Properties.Resources.resources
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\NumerosComplexos.csproj.GenerateResource.Cache
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\NumerosComplexos.exe
+C:\Users\ItaloBerg\Dropbox\Segundo Semestre\POO\Lista 10\NumerosComplexos\NumerosComplexos\obj\Debug\NumerosComplexos.pdb
