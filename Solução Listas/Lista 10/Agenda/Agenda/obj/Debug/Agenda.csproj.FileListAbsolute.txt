@@ -1,0 +1,15 @@
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\bin\Debug\Agenda.exe.config
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\bin\Debug\Agenda.exe
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\bin\Debug\Agenda.pdb
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\Agenda.csprojResolveAssemblyReference.cache
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\MainWindow.baml
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\MainWindow.g.cs
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\App.g.cs
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\Agenda_MarkupCompile.cache
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\Agenda.g.resources
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\Agenda.Properties.Resources.resources
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\Agenda.csproj.GenerateResource.Cache
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\Agenda.exe
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\Agenda.pdb
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\NovoCompromisso.baml
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Agenda\Agenda\obj\Debug\NovoCompromisso.g.cs
