@@ -63,7 +63,6 @@
     </Compile>
     <Compile Include="Compromisso.cs" />
     <Compile Include="Horario.cs" />
-    <Compile Include="LCompromissos.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -77,6 +76,7 @@
     <Compile Include="NovoCompromisso.xaml.cs">
       <DependentUpon>NovoCompromisso.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Persistencia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

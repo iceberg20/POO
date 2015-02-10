@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace Agenda
 {
-    class Compromisso
+    public class Compromisso
     {
-        private string assunto;
-        private string local;
-        private Horario horario;
+        public string assunto;
+        public string local;
+        public Horario horario;
+
+        public Compromisso()
+        {
+
+        }
 
         public Compromisso(string assunto, string local, Horario horario)
         {
@@ -18,9 +23,24 @@ namespace Agenda
             this.local = local;
             this.horario = horario;
         }
+
+        public override string ToString()
+        {
+            return horario.ToString()+ " - " +assunto.ToString() + " " + local.ToString();
+        }
+
+        public string Assunto()
+        {
+            return assunto;
+        }
+
+        public string Horario()
+        {
+            return horario.ToString();
+        }
     }
 
-    class Ag : List<Compromisso> 
+    public class Ag : List<Compromisso> 
     {
  
     }

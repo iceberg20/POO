@@ -30,7 +30,52 @@ namespace Agenda
         private void ShowWindowAddCompromisso(object sender, RoutedEventArgs e)
         {
             NovoCompromisso novo = new NovoCompromisso();
-            novo.Show();
+            novo.g = Agenda();
+            if(novo.ShowDialog()==true)  
+                Listar(sender,e);
         }
+
+        public Ag Agenda() 
+        {
+            return ga;
+        }
+
+        private void Listar(object sender, RoutedEventArgs e)
+        {
+            ListBox1.Items.Clear();
+            foreach (Object o in ga)
+            {
+                ListBox1.Items.Add(o.ToString());
+            }
+        }
+
+        private void Salvar(object sender, RoutedEventArgs e)
+        {
+            Persistencia<Ag> arq =
+                new Persistencia<Ag>();
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\agenda.xml";
+            arq.SalvarArquivo(path, ga);
+        }
+
+        private void Abrir(object sender, RoutedEventArgs e)
+        {
+            Persistencia<Ag> arq =
+                  new Persistencia<Ag>();
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\agenda.xml";
+            ga = arq.AbrirArquivo(path);
+
+            Listar(sender, e);
+        }
+
+        private void ListShow(object sender, SelectionChangedEventArgs e)
+        {
+            if (ListBox1.SelectedIndex >= 0)
+            {
+                TBM1.Text = ga[ListBox1.SelectedIndex].assunto;
+                TBM2.Text = ga[ListBox1.SelectedIndex].local;
+                TBM3.Text = ga[ListBox1.SelectedIndex].horario.ToString();
+            }
+        }
+
     }
 }

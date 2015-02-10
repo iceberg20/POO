@@ -19,6 +19,7 @@ namespace Agenda
     /// </summary>
     public partial class NovoCompromisso : Window
     {
+        public Ag g;
         public NovoCompromisso()
         {
             InitializeComponent();
@@ -38,8 +39,9 @@ namespace Agenda
 
 
             Compromisso c = new Compromisso(assunto,loc,h);
-            Ag gg = new Ag();
-            gg.Add(c);           
+
+            g.Add(c);
+            DialogResult = true;
         }
     }
 }

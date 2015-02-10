@@ -8,11 +8,11 @@ namespace Agenda
 {
     public class Horario
     {
-        private int dia;
-        private int mes;
-        private int ano;
-        private int hora;
-        private int minuto;
+        public int dia;
+        public int mes;
+        public int ano;
+        public int hora;
+        public int minuto;
 
         public Horario()
         { 
@@ -30,8 +30,10 @@ namespace Agenda
         public override string ToString()
         {
             DateTime d = new DateTime(ano, mes, dia, hora, minuto,0);
-            return d.ToString();
+            string min = "";
+            if (minuto < 10) min = "0";
 
+            return d.ToShortDateString() + " " + hora.ToString() +":"+min+minuto;
         }
     }
 }
