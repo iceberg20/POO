@@ -18,10 +18,6 @@ namespace Financeiro
  
         }
         
-        public override string ToString()
-        {
-            return id.ToString();
-        }
     }
 
     public class Despesas : List<Despesa>

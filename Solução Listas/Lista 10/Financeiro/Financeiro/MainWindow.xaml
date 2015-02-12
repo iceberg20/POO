@@ -5,8 +5,8 @@
     <Grid>
         <Menu Margin="0,0,0,288">
             <MenuItem Header="Arquivo">
-                <MenuItem Header="Abrir..."></MenuItem>
-                <MenuItem Header="Salvar..."></MenuItem>
+                <MenuItem Header="Abrir..." Click="Abrir"></MenuItem>
+                <MenuItem Header="Salvar..." Click="Salvar"></MenuItem>
             </MenuItem>
             
         </Menu>

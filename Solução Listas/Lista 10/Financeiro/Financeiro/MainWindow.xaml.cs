@@ -32,11 +32,13 @@ namespace Financeiro
 
         public void Listar(Fornecedores lista)
         {
+            ListBox1.Items.Clear();
             foreach (Fornecedor obj in lista)
             {
-                ListBox1.Items.Add(obj); 
+                ListBox1.Items.Add(obj.id.ToString()+" - "+obj.nome); 
             }
         }
+
         private void AddFornecedor(object sender, RoutedEventArgs e)
         {
             InserirFornecedor addFornecedor = new InserirFornecedor();
@@ -55,17 +57,66 @@ namespace Financeiro
         {
             Despesa dp = new Despesa();
             dp.id = int.Parse(TBM1.Text);
-            string fn;  
+            string fn ="";  
             if(ComboBox1.SelectedItem.ToString() != null)
                 fn = ComboBox1.SelectedItem.ToString();
-           // int id = f.Find()
+            dp.idFornecedor = f.Find(x => x.nome == fn).id;
+            dp.valor = double.Parse(TBM3.Text);
+            d.Add(dp);
 
-            ListBox1.Items.Add("aew");
-         //   foreach (Despesa obj in d)
-          //  {
-               // ListBox1.Items.Add(obj.ToString());
-          //  }
+            ListBox1.Items.Clear();
+            foreach (Despesa obj in d)
+            {
+                fn = f.Find(x => x.id == obj.idFornecedor).nome;
+                string saida = obj.id.ToString() +" - "+ fn +" - "+ obj.data.ToShortDateString() +" - R$ "+ obj.valor.ToString();
+               ListBox1.Items.Add(saida);
+            }
 
+        }
+
+        private void Salvar(object sender, RoutedEventArgs e)
+        {            
+            Persistencia<Fornecedores> arq =
+            new Persistencia<Fornecedores>();
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\financeiro_forncedor.xml";
+            arq.SalvarArquivo(path, f);
+
+            Persistencia<Despesas> arq2 =
+            new Persistencia<Despesas>();
+            string path2 = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\financeiro_despesa.xml";
+            arq2.SalvarArquivo(path2, d);
+        }
+
+        private void Abrir(object sender, RoutedEventArgs e)
+        {
+            ListBox1.Items.Clear();
+
+            Persistencia<Fornecedores> arq =
+            new Persistencia<Fornecedores>();
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\financeiro_forncedor.xml";
+            f = arq.AbrirArquivo(path);
+
+            Persistencia<Despesas> arq2 =
+            new Persistencia<Despesas>();
+            string path2 = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\financeiro_despesa.xml";
+            d = arq2.AbrirArquivo(path2);
+
+            string saida="";
+            
+            foreach (Fornecedor obj in f)
+            {
+                ComboBox1.Items.Add(obj.nome);
+            }
+
+            foreach (Despesa obj in d)
+            {
+                int idf = obj.idFornecedor;
+                string nf = f.Find(x => x.id == idf).nome;
+                saida = obj.id.ToString() + " - " + nf + " - " + obj.data.ToShortDateString() + " - " + obj.valor.ToString();
+                ListBox1.Items.Add(saida);
+            }
+
+            
         }
 
 

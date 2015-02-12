@@ -53,7 +53,7 @@ namespace Agenda
         {
             Persistencia<Ag> arq =
                 new Persistencia<Ag>();
-            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\agenda.xml";
+            string path = Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\financeiro.xml";
             arq.SalvarArquivo(path, ga);
         }
 
