@@ -1,0 +1,26 @@
+﻿<Window x:Class="Financeiro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Financeiro" Height="350" Width="654.283" ResizeMode="NoResize">
+    <Grid>
+        <Menu Margin="0,0,0,288">
+            <MenuItem Header="Arquivo">
+                <MenuItem Header="Abrir..."></MenuItem>
+                <MenuItem Header="Salvar..."></MenuItem>
+            </MenuItem>
+            
+        </Menu>
+        <Label Content="ID" HorizontalAlignment="Left" Margin="31,63,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBM1" HorizontalAlignment="Left" Height="23" Margin="31,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="50"/>
+        <Label Content="Fornecedor" HorizontalAlignment="Left" Margin="106,63,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="ComboBox1" HorizontalAlignment="Left" Margin="106,89,0,0" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Data" HorizontalAlignment="Left" Margin="264,64,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBM2" HorizontalAlignment="Left" Height="23" Margin="264,89,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="99"/>
+        <Label Content="Valor" HorizontalAlignment="Left" Margin="389,63,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="TBM3" HorizontalAlignment="Left" Height="23" Margin="389,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="90"/>
+        <Button Content="Fornecedores" HorizontalAlignment="Left" Margin="505,57,0,0" VerticalAlignment="Top" Width="112" Height="27" Click="AddFornecedor"/>
+        <Button Content="Inserir Despesas" HorizontalAlignment="Left" Margin="505,89,0,0" VerticalAlignment="Top" Width="112" Height="27" Click="InserirDespesa"/>
+        <ListBox x:Name="ListBox1" HorizontalAlignment="Left" Height="163" Margin="31,132,0,0" VerticalAlignment="Top" Width="586"/>
+
+    </Grid>
+</Window>

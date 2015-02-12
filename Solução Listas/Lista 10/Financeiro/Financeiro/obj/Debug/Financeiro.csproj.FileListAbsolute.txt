@@ -1,0 +1,15 @@
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\bin\Debug\Financeiro.exe.config
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\bin\Debug\Financeiro.exe
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\bin\Debug\Financeiro.pdb
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\Financeiro.csprojResolveAssemblyReference.cache
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\MainWindow.baml
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\MainWindow.g.cs
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\App.g.cs
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\Financeiro_MarkupCompile.cache
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\Financeiro.g.resources
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\Financeiro.Properties.Resources.resources
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\Financeiro.csproj.GenerateResource.Cache
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\Financeiro.exe
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\Financeiro.pdb
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\InserirFornecedor.baml
+C:\Users\ItaloBerg\Documents\GitHub\POO\Solução Listas\Lista 10\Financeiro\Financeiro\obj\Debug\InserirFornecedor.g.cs
