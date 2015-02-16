@@ -1,0 +1,13 @@
+﻿<Window x:Class="SistemaAcademico.login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="login" Height="300" Width="211.94" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="44,64,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="41,132,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Login" HorizontalAlignment="Left" Margin="44,33,0,0" VerticalAlignment="Top"/>
+        <Label Content="Senha" HorizontalAlignment="Left" Margin="41,101,0,0" VerticalAlignment="Top"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="44,178,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
